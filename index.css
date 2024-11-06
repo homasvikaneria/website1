@@ -518,4 +518,72 @@
   margin-top: 50px;
   margin-bottom:-20px;
  }
+
+ .logowithoutflex{
+  height: 15px;
+  margin-right: 6px;
+  margin-left: 15px;
+ }
+ .textwithoutflex{
+  color: #292D31;
+  font-size: 16px;
+  padding-left: 15px;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+ }
+
+ .flex_twg{
+  display: flex;
+  align-items: center;
+  justify-content: ;
+ }
  
+ .img{
+  height: 40px;
+  width: 40px;
+  /* margin-left: 15px; */
+ }
+ .grid_a{
+  display: grid;
+  grid-template-columns: repeat(3,205px);
+  grid-template-rows: repeat(4,65px);
+ }
+ .text{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #292D31;
+  margin-left:11px;
+  margin-left: 15px;
+ }
+
+ .grid1{
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  position:relative;
+  padding: 5px;
+  width: 180px;
+  border-radius: 10px;
+  margin-left: 15px;
+ }
+ .grid_b{
+  display: grid;
+  grid-template-rows: repeat(1,65px);
+  grid-template-columns: repeat(2,205px);
+  /* background-color: #FFFFFFB3;
+  position: relative; */
+  /* margin-left: 15px; */
+ }
+
+ .grid_c{
+  display: grid;
+  grid-template-rows: repeat(1,65px);
+  grid-template-columns: repeat(3,205px);
+ }
+
+ .mainyellowbox{
+  background-color: #FFFFFFB3;
+  position: absolute;
+  margin-left: 340px;
+  margin-top:105px ;
+ }
